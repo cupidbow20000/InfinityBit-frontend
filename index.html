@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Scratch HTML File</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <div class="header_back">
+        <div class="left_circle"></div>
+        <div class="right_circle"></div>
+        <div class="navbar">
+            <img src="img/logo.png" width="248px" height="69px" alt="logo" />
+            <div id="id02" class="btn hidden top-show-btn " onclick="show()">&#128315;</div>
+            <script type="text/javascript">
+                function show(){
+                    var list=document.getElementById('id01');
+                    var btn=document.getElementById('id02');
+                    if(list.style.display== 'none'){
+                        list.style.display='block'
+                        btn.innerHTML="&#128314;";
+
+                    }
+                    else{
+                        list.style.display= 'none';
+                        btn.innerHTML="&#128315;";
+                    }
+                   
+                }
+            </script>
+            <div class="flex_row ">
+                <div class="flex_row show">
+                    <div class="btn gradient-color link">Home</div>
+                    <div class="btn link">Team</div>
+                    <div class="btn link">News</div>
+                    <div class="btn link">About</div>
+                </div>
+                <div class="btn_whitepaper btn show" onclick="show">Download Whitepaper</div>
+
+            </div>
+            
+        </div>
+        <div id="id01" class="topnav-list">
+            <div class="topnav-list-item btn">Home</div>
+            <div class="topnav-list-item btn">Team</div>
+            <div class="topnav-list-item btn">News</div>
+            <div class="topnav-list-item btn">About</div>
+            <!-- <div class="btn_whitepaper btn ">Download Whitepaper</div> -->
+        </div>
+        <div class="header_description">
+            <div class="infinite_token"><b>InfinityBit Token <span class="gradient-color">(IBIT)</span></b></div>
+            <div class="infinite_description">InfinityBit Token will be used on the InfinityBit CEX for reduced fees and access to an AI powered trading system.</div>
+            <div class="btn_whitepaper btn">Download Whitepaper</div>
+        </div>
+    </div>
+    <div class="key_feature font-h">Key Features</div>
+    <div class=" card_group">
+        <div class="card">
+            <div class="card_img"><img src="img/ecosystem.png" width="53px" height="53px" alt="ecosystem" /></div>
+            
+            <div class="card_title">Token Ecosystem</div>
+            <div class="card_description">InfinityBit CEX accepts IBIT tokens for 50% reduced trading fees.</div>
+        </div>
+        <div class="card">
+            
+            <div class="card_img"><img src="img/liquidity.png" width="53px" height="53px" alt="ecosystem" /></div>
+            
+            <div class="card_title">Liquidity Locked</div>
+            <div class="card_description">IBIT Liquidity is locked for 1 Year</div>
+        </div>
+        <div class="card">
+            <div class="card_img"><img src="img/technology-integration 1.png" width="53px" height="53px" alt="ecosystem" /></div>
+            
+            <div class="card_title">NULS Ecosystem Integration</div>
+            <div class="card_description">InfinityBit Token is integrated into the NULS Ecosystem .</div>
+        </div>
+        <div class="card">
+            <div class="card_img"><img src="img/crosschain.png" width="53px" height="53px" alt="ecosystem" /></div>
+            
+            <div class="card_title">Cross-Chain Bridge</div>
+            <div class="card_description">InfinityBit Token is integrated into the NULS Ecosystem .</div>
+        </div>
+        <div class="card">
+            <div class="card_img"><img src="img/trading.png" width="53px" height="53px" alt="ecosystem" /></div>
+            
+            <div class="card_title">Token Ecosystem</div>
+            <div class="card_description">InfinityBit CEX accepts IBIT tokens for 50% reduced trading fees.</div>
+        </div>
+    </div>
+    <div class="trading-holder flex_row">
+        <div class="left_circle" ></div>
+        <div class="right_circle" ></div>
+        <div class="trading-left">
+            <div class="tranding-title font-h">AI-Powered Trading for IBIT Holders</div>
+            <div class="trading-description font-m">AI-powered trading platforms, such as trading bots and sentiment analysis, can help IBIT holders make informed trading decisions based on historical data and market trends. Utilizing these platforms can increase profitability and mitigate risks, but it's important to conduct proper research and analysis before making any trading decisions.</div>
+        </div>
+        <div class="trading-left"><img src="img/Frame.png" alt="ecosystem" /></div>
+    </div>
+    <div class="roadmap">
+        <div class="key_feature font-h">Roadmap for 2023</div>
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2 class="content-title">Feb 14, 2023</h2>
+              <p class="content-description text-gray">IBIT Private Sale</p>
+            </div>
+          </div>
+          <div class="container right ">
+            <div class="content background-gradient">
+              <h2 class="content-title">Feb 15, 2023</h2>
+              <p class="content-description">IBIT Smart Contract V1</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2 class="content-title">Mar 20, 2023</h2>
+              <p class="content-description text-gray">IBIT Smart Contract V2 (Re-deploy)</p>
+            </div>
+          </div>
+          <div class="container right ">
+            <div class="content">
+              <div class="content-title gradient-color"><b>Q2 2023</b></div>
+              <div class="content-title">CEX Blockchain Testnet</div>
+              <p class="content-description text-gray">InfinityBit blockchain testnet genesis block.</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <div class="content-title gradient-color"><b>Q2 2023</b></div>
+              <div class="content-title">Feb 14, 2023</div>
+              <p class="content-description text-gray">Demo accounts will be available for internal platform testing - Limited Slots available for select IBIT holders only.</p>
+            </div>
+          </div>
+          <div class="container right ">
+            <div class="content">
+              <div class="content-title gradient-color"><b>Q3 2023</b></div>
+              <!-- <div class="content-title">CEX Blockchain Testnet</div> -->
+              <p class="content-description text-gray">First Round of Security Audits</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <!-- <div class="content-title gradient-color"><b>Q3 2023</b></div> -->
+              <div class="content-title">Feb 14, 2023</div>
+              <p class="content-description text-gray">InfinityBit CEX Official Pre-Launch for IBIT holders.</p>
+            </div>
+          </div>
+          <div class="container right ">
+            <div class="content">
+              <div class="content-title gradient-color"><b>Q4 2023</b></div>
+              <!-- <div class="content-title">CEX Blockchain Testnet</div> -->
+              <p class="content-description text-gray">Second Round of Security Audits</p>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+    <div class="tokenomics">
+        <div class="left_circle"></div>
+        <div class="right_circle"></div>
+        <div class="key_feature font-h">Tokenomics</div>
+        <div class="font-m" style="text-align: center;padding: 20px;">10,000,000,000 IBIT tokens</div>
+        
+        <div class="graph-box row">
+            <div class="graph-chart-group">
+                
+                <canvas style="position:absolute;"  id="chart1" width="800" height="800"></canvas>
+
+                <script>
+                    const canvas1 = document.getElementById('chart1');
+                    const ctx1 = canvas1.getContext('2d');
+
+                    const centerX1 = canvas1.width/2;
+                    const centerY1 = canvas1.height / 2;
+                    const radius1 = 300;
+
+                    const startAngle1 = (-90 * Math.PI) / 180; // In radians
+                    const endAngle1 = (-390 * Math.PI) / 180; // Convert degrees to radians
+
+                    ctx1.beginPath();
+                    ctx1.moveTo(centerX1, centerY1);
+                    ctx1.arc(centerX1, centerY1, radius1, startAngle1, endAngle1);
+                    ctx1.closePath();
+
+                    ctx1.fillStyle = '#FF6384'; // Set fill color to red
+                    ctx1.fill();
+                     ctx1.font = "30px Arial"; // Set the font style
+                    ctx1.fillStyle = "#ffffff"; // Set the fill color for the text
+                    ctx1.fillText("43%", centerX1+100, (centerY1-150));
+
+                </script>
+                <canvas style="position: absolute;" id="chart2" width="800" height="800"></canvas>
+
+                <script>
+                    const canvas2 = document.getElementById('chart2');
+                    const ctx2 = canvas2.getContext('2d');
+
+                    const centerX2 = canvas2.width / 2;
+                    const centerY2 = canvas2.height / 2;
+                    const radius2 = 260;
+
+                    const startAngle2 = (-30 * Math.PI) / 180; // In radians
+                    const endAngle2 = (-330 * Math.PI) / 180; // Convert degrees to radians
+
+                    ctx2.beginPath();
+                    ctx2.moveTo(centerX2, centerY2);
+                    ctx2.arc(centerX2, centerY2, radius2, startAngle2, endAngle2);
+                    ctx2.closePath();
+
+                    ctx2.fillStyle = '#36A2EB'; // Set fill color to red
+                    ctx2.fill();
+                    ctx2.font = "30px Arial"; // Set the font style
+                    ctx2.fillStyle = "#ffffff"; // Set the fill color for the text
+                    ctx2.fillText("20%", centerX2+120, (centerY2));
+
+
+                </script>
+                <canvas style="position: absolute;" id="chart3" width="800" height="800"></canvas>
+
+                <script>
+                    const canvas3 = document.getElementById('chart3');
+                    const ctx3 = canvas3.getContext('2d');
+
+                    const centerX3 = canvas3.width / 2;
+                    const centerY3 = canvas3.height / 2;
+                    const radius3 = 220;
+
+                    const startAngle3 = (-330 * Math.PI) / 180; // In radians
+                    const endAngle3 = (-270 * Math.PI) / 180; // Convert degrees to radians
+
+                    ctx3.beginPath();
+                    ctx3.moveTo(centerX3, centerY3);
+                    ctx3.arc(centerX3, centerY3, radius3, startAngle3, endAngle3);
+                    ctx3.closePath();
+
+                    ctx3.fillStyle = '#4BC0C0'; // Set fill color to red
+                    ctx3.fill();
+                    ctx3.font = "30px Arial"; // Set the font style
+                    ctx3.fillStyle = "#ffffff"; // Set the fill color for the text
+                    ctx3.fillText("15%", centerX3+50, (centerY3+150));
+
+                </script>
+                <canvas style="position: absolute;" id="chart4" width="800" height="800"></canvas>
+
+                <script>
+                    const canvas4 = document.getElementById('chart4');
+                    const ctx4 = canvas4.getContext('2d');
+
+                    const centerX4 = canvas4.width / 2;
+                    const centerY4 = canvas4.height / 2;
+                    const radius4 = 240;
+
+                    const startAngle4 = (-270 * Math.PI) / 180; // In radians
+                    const endAngle4 = (-210 * Math.PI) / 180; // Convert degrees to radians
+
+                    ctx4.beginPath();
+                    ctx4.moveTo(centerX4, centerY4);
+                    ctx4.arc(centerX4, centerY4, radius4, startAngle4, endAngle4);
+                    ctx4.closePath();
+
+                    ctx4.fillStyle = '#FFCE56'; // Set fill color to red
+                    ctx4.fill();
+                    ctx4.font = "30px Arial"; // Set the font style
+                    ctx4.fillStyle = "#ffffff"; // Set the fill color for the text
+                    ctx4.fillText("10%", centerX4-100, (centerY4+150));
+
+
+                </script>
+                <canvas style="position: absolute;" id="chart5" width="800" height="800"></canvas>
+
+                <script>
+                    const canvas5 = document.getElementById('chart4');
+                    const ctx5 = canvas5.getContext('2d');
+
+                    const centerX5 = canvas5.width / 2;
+                    const centerY5 = canvas5.height / 2;
+                    const radius5 = 180;
+
+                    const startAngle5 = (-210 * Math.PI) / 180; // In radians
+                    const endAngle5 = (-150 * Math.PI) / 180; // Convert degrees to radians
+
+                    ctx5.beginPath();
+                    ctx5.moveTo(centerX5, centerY5);
+                    ctx5.arc(centerX5, centerY5, radius5, startAngle5, endAngle5);
+                    ctx5.closePath();
+
+                    ctx5.fillStyle = '#9966FF'; // Set fill color to red
+                    ctx5.fill();
+                    ctx5.font = "30px Arial"; // Set the font style
+                    ctx5.fillStyle = "#ffffff"; // Set the fill color for the text
+                    ctx5.fillText("9%", centerX5-100, (centerY5));
+
+
+                </script>
+                <canvas style="position: absolute;" id="chart5" width="800" height="800"></canvas>
+
+                <script>
+                    const canvas6 = document.getElementById('chart4');
+                    const ctx6 = canvas6.getContext('2d');
+
+                    const centerX6 = canvas6.width / 2;
+                    const centerY6 = canvas6.height / 2;
+                    const radius6 = 160;
+
+                    const startAngle6 = (-150 * Math.PI) / 180; // In radians
+                    const endAngle6 = (-90 * Math.PI) / 180; // Convert degrees to radians
+
+                    ctx6.beginPath();
+                    ctx6.moveTo(centerX6, centerY6);
+                    ctx6.arc(centerX6, centerY6, radius6, startAngle6, endAngle6);
+                    ctx6.closePath();
+
+                    ctx6.fillStyle = '#40DDFF'; // Set fill color to red
+                    ctx6.fill();
+                    ctx6.font = "30px Arial"; // Set the font style
+                    ctx6.fillStyle = "#ffffff"; // Set the fill color for the text
+                    ctx6.fillText("3%", centerX5-70, (centerY5-70));
+                </script>
+                <!-- <div style="position:absolute;top: 0px; left: 150px; width: 100px; height: 100px; background-color:#090C17 ; border-radius: 50%; border:10px solid white;"></div> -->
+                
+            </div>
+            <div class="graph-token-group">
+                <div class="token-name" style="color: #FF6384;">- Burned after private sale</div>
+                <div class="token-name" style="color: #36A2EB;">- 20% Initial Liquidity Poo</div>
+                <div class="token-name" style="color: #4BC0C0;">-  15% Private Sale</div>
+                <div class="token-name" style="color: #FFCE56;">-  10% CEX Token Listing</div>
+                <div class="token-name" style="color: #9966FF;">-  09% Reserved LP</div>
+                <div class="token-name" style="color: #40DDFF;">- 03% Marketing & Partnerships</div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="inifity-board background-gradient row">
+        <div class="inifity-board-left">
+            <div class="font-h">InfinityBit Achievements</div>
+        </div>
+        <div class="inifity-board-right row">
+            <div class="achieve-card flag-left">
+                <div class="achieve-card-symbole">
+                    <img src="img/twitter.png" width="55px" height="55px" alt="logo" />
+                </div>
+                <div class="achieve-card-title">1358</div>
+                <div class="achieve-card-description">Twitter Followers</div>
+            </div>
+            <div class="achieve-card ">
+                <div class="achieve-card-symbole">
+                    <img src="img/team.png" width="55px" height="55px" alt="logo" />
+                </div>
+                <div class="achieve-card-title">05</div>
+                <div class="achieve-card-description">Dedicated Team-members</div>
+            </div>
+            <div class="achieve-card">
+                <div class="achieve-card-symbole">
+                    <img src="img/web-coding.png" width="55px" height="55px" alt="logo" />
+                </div>
+                <div class="achieve-card-title">>20,000</div>
+                <div class="achieve-card-description">Lines of code</div>
+            </div>
+            <div class="achieve-card">
+                <div class="achieve-card-symbole">
+                    <img src="img/review.png" width="55px" height="55px" alt="logo" />
+                </div>
+                <div class="achieve-card-title">28</div>
+                <div class="achieve-card-description">Combined Years of Experience</div>
+            </div>
+        </div>
+    </div>
+    <div class="trading-holder">
+        <div class="trading-left">
+            <img src="img/Group.png" alt="ecosystem" />
+        </div>
+        <div class="trading-left" style="padding-left: 50px;">
+            <div class="font-h" style="padding-top: 50px;">Reduced Trading Fees</div>
+            <p class="font-m">Reduced trading fees are lower commission costs charged by brokers or exchanges for executing trades. Traders can obtain reduced fees by trading in high volumes, using specific order types, or meeting certain criteria set by the broker.</p>
+            <p class="font-m">However, reduced trading fees may come with trade-offs such as limited customer support or access to investment products. It's important to compare brokers and exchanges to find the best fit for your needs and goals.</p>
+        </div>
+    </div>
+    <div class="font-m" style="overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; 
+            background-image: url('img/Mask group.png'); 
+            text-align:center; padding: 40px">IBIT Contract address (ERC20) : 0xA3cB87080e68AD54D00573983D935Fa85d168FDE</div>
+    <div class="footer-main background-gradient row">
+        <div class="footer-left">
+            <div>
+            <img src="img/logo.png" width="248px" height="69px" alt="logo" />
+                
+            </div>
+            <p>
+                InfinityBit.io is a completely on-chain CEX built on top of the Ethereum blockchain. It will serve as a transparent on-ramp and exchange forindividuals and firms alike.
+            </p>
+        </div>
+        <div class="footer-middle">
+            <div style="font-size: 24px; font-weight: bold; padding: 40px 5px;">Usefull Link</div>
+            <div>What is an On-Chain CEX?</div>
+            <div>Press</div>
+            <div>Road Map</div>
+            <div>About</div>
+            <div>Whitepaper</div>
+            <div>Blockchain</div>
+        </div>
+        <div class="footer-right">
+            <div style="font-size: 24px; font-weight: bold; padding-top: 40px;">Newsletter</div>
+            <p style="padding-top:30px">Don’t miss out on the latest updates! Subscribe now and stay in touch. We won’t send unrelated email.</p>
+            <div class="search-board">
+                <input class="search-bar" placeholder="Enter Email">
+                </input>
+                <div class="send-btn background-gradient"><img src="img/send-2.png"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer background-gradient" >
+        ©2023 InfinityBit, Ltd. All rights reserved.
+    </div>
+</body>
+</html>
